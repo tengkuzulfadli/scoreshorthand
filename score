@@ -1,0 +1,22 @@
+using System;
+
+namespace LabFiveThree
+{
+    class PassFail
+    {
+        static void Main(string[] args)
+        {
+
+            Console.WriteLine("Please enter your score: ");
+            int score = int.Parse(Console.ReadLine());
+
+            //Short-hand code
+
+            string result = (score >= 50) ? "Congsratulation!" : "Failed";
+
+            Console.WriteLine(result);
+
+            Console.ReadKey();
+        }
+    }
+}
